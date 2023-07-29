@@ -1,0 +1,115 @@
+.receitas {
+    justify-content: center;
+    border-radius: 5px;
+    padding: 1px 1px 5px 1px;
+    width: 270px;
+    background-color: #ffffff;
+
+
+}
+
+
+
+
+@media (max-width: 1340px) {
+    .receitas {
+        flex-direction: column;
+        width: 250px;
+        font-size: 11px;
+        margin: 3px 10px 5px 10px;
+        padding: 1px 10px 3px 10px;
+    }
+}
+
+
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+main h2 {
+    padding-top: 10px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+main section {
+    margin: 5px 10px 5px 5px;
+}
+
+
+
+
+@font-face {
+    font-family: 'Bogota';
+    src: url(fonts/Bogota.ttf) formato(truetype);
+    font-weight: normal;
+}
+
+.vertical-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none; /* Remova as bolinhas da lista */
+    padding-left: 15px; /* Remova o padding padrão da lista */
+    align-items: flex-start; /* Alinha os itens ao topo do contêiner flex */
+}
+.vertical-list li {
+    display: block;
+    margin-bottom: 10px; /* Adicione margem inferior para separar os itens verticalmente */
+    font-size: 14px;
+}
+
+/* Opcional: Estilize os círculos */
+.vertical-list li::before {
+    content: "\2022"; /* Código do caractere do círculo */
+    margin-right: 10px; /* Adicione uma margem à direita para separar os círculos dos itens */
+}
+
+/* Definir a formatação para o nome da receita */
+.painel-receita {
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+
+    /* Adicionar mais estilos conforme necessário */
+}
+
+/* Definir a formatação para a foto do prato */
+.painel-receitaimg {
+    width: 100%;
+    height: 130px;
+    border-radius: 5px;
+    /* Adicionar mais estilos conforme necessário */
+}
+
+/* Definir a formatação para a lista de itens e modo de preparo */
+
+
+hr {
+    color: rgb(255, 255, 255);
+    background-color: rgb(182, 176, 176);
+    width: 100%;
+    height: 1px;
+}
+
+
+main h2 {
+    font: 17px;
+}
+
+
+.paragrafo {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2.2em;
+    text-indent: 10px;
+
+}

@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Bogota', Arial, Helvetica, sans-serif;
+}
+
+
+
+
+@font-face {
+    font-family: 'Bogota';
+    src: url(fonts/Bogota.ttf) formato(truetype);
+    font-weight: normal;
+}
+
+.pt-150 {
+    padding-top: 150px;
+  }
+
+
+
+
+
+
+.imagem-div {
+    position: relative;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+.containerr {
+    position: relative;
+    text-align: center;
+
+
+}
+
+.texto {
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Definir a formatação das áreas semânticas */
+
+
+footer {
+    background-color: #343a40;
+    text-align: center;
+    height: 30px;
+}
+
+footer p {
+    color: white;
+
+}
+
+body {
+    font-family: 'Bogota', Arial, Helvetica, sans-serif;
+    background-color: #E9967A;
+
+}
+
+.container-fluid{
+    height: 508px;
+}
+
+
+
+
+main {
+    display: flex;
+    width: 100%;
+    height: 533px;
+    background-color: #E9967A;
+
+}
+
+
+
+div h1 {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.246);
+}
+
+
+div q {
+    display: block;
+    font-weight: bold;
+}
+
+div p {
+    font-weight: bold;
+    display: block;
+}
