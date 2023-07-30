@@ -17,7 +17,7 @@ Alerts are available for any length of text, as well as an optional dismiss butt
   A simple {{ color.name }} alert—check it out!
 </div>{% endfor %}
 {% endcapture %}
-{% include example.html content=example %}
+{% include home.html content=example %}
 
 {% include callout-warning-color-assistive-technologies.md %}
 
@@ -31,7 +31,7 @@ Use the `.alert-link` utility class to quickly provide matching colored links wi
   A simple {{ color.name }} alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
 </div>{% endfor %}
 {% endcapture %}
-{% include example.html content=example %}
+{% include home.html content=example %}
 
 ### Additional content
 
@@ -45,7 +45,7 @@ Alerts can also contain additional HTML elements like headings, paragraphs and d
   <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
 </div>
 {% endcapture %}
-{% include example.html content=example %}
+{% include home.html content=example %}
 
 
 ### Dismissing
@@ -68,7 +68,7 @@ You can see this in action with a live demo:
   </button>
 </div>
 {% endcapture %}
-{% include example.html content=example %}
+{% include home.html content=example %}
 
 ## JavaScript behavior
 
@@ -114,4 +114,4 @@ Bootstrap's alert plugin exposes a few events for hooking into alert functionali
 $('#myAlert').on('closed.bs.alert', function () {
   // do something…
 })
-% endhighlight %}
+{% endhighlight %}
