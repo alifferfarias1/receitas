@@ -89,7 +89,6 @@ Or with `data` attributes on a button **within the alert**, as demonstrated abov
 {% endhighlight %}
 
 Note that closing an alert will remove it from the DOM.
-Liquid Exception: Could not locate the included file 'example.html' in any of ["/github/workspace/_includes", "/usr/local/bundle/gems/jekyll-theme-primer-0.6.0/_includes"].
 
 
 ### Methods
