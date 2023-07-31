@@ -47,22 +47,13 @@
 /* Definir a formatação das áreas semânticas */
 
 
-footer {
-    background-color: #343a40;
-    text-align: center;
-    height: 30px;
-}
-
-footer p {
-    color: white;
-
-}
 
 body {
     font-family: 'Bogota', Arial, Helvetica, sans-serif;
     background-color: #E9967A;
 
 }
+
 
 .container-fluid{
     height: 508px;
@@ -97,4 +88,16 @@ div q {
 div p {
     font-weight: bold;
     display: block;
+}
+
+
+footer {
+    background-color: #343a40;
+    text-align: center;
+    height: 30px;
+}
+
+footer p {
+    color: white;
+
 }

@@ -9,7 +9,7 @@
     border-radius: 5px;
     padding: 1px 1px 5px 1px;
     width: 305px;
-    height: 575px;
+    height: 580px;
     background-color: #ffffff;
 
 
@@ -18,7 +18,7 @@
 @media (max-width: 1340px) {
     .receitas {
         flex-direction: column;
-        width: 250px;
+        width: 280px;
         font-size: 11px;
         margin: 3px 15px 5px 10px;
         padding: 1px 10px 3px 10px;
@@ -80,6 +80,7 @@
     text-indent: 10px;
 
 }
+
 
 
 main h2 {
