@@ -1,3 +1,10 @@
-main h1 {
-    margin-bottom: 100px;
+* {
+    margin: 0px;
+    padding: 0px;
 }
+
+.titulo{
+    margin:auto;
+    padding: 10px 10px 10px 10px;
+}
+

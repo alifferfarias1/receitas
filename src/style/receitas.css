@@ -8,8 +8,8 @@
     justify-content: center;
     border-radius: 5px;
     padding: 1px 1px 5px 1px;
-    width: 305px;
-    height: 580px;
+    width: 290px;
+    height: 570px;
     background-color: #ffffff;
 
 
@@ -32,7 +32,7 @@
 }
 
 .vertical-list {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     list-style-type: none;
     /* Remova as bolinhas da lista */
@@ -70,7 +70,7 @@
 .painel-receitaimg {
     width: 100%;
     height: 130px;
-    border-radius: 5px;
+    border-radius: 5px 5px 0px 0px;
     /* Adicionar mais estilos conforme necessário */
 }
 
@@ -93,6 +93,7 @@ main section {
 
 main li {
     font-size: 13px;
+    display: inline-block;
 }
 
 
