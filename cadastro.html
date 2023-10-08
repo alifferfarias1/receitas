@@ -16,54 +16,113 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container m-10">
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav">
                     <li class="nav-item ">
                         <a class="nav-link" href="home.html" rel="prev">Página Inicial</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="receitas.html" rel="prev">Receitas</a>
-                    </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="cadastro.html">Cadastro</a>
+                        <a class="nav-link" href="receitas.html">Receitas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cadastro.html" rel="next">Cadastro</a>
                     </li>
                 </ul>
+
             </div>
-
-        </div>
-    </nav>
-
-
+        </nav>
+    </header>
     <main>
         <div class="container">
 
-            <form>
-                <div class="form-group">
-                    <label for="nome">Nome:</label>
-                    <input type="text" class="form-control" id="nome" name="nome" required style="width: 70%">
+            <form action="https://formsubmit.co/alifferalvesfarias3@gmail.com" method="POST">
+
+                <div class="row">
+                    <div class="form-group col-12">
+                        <label for="nome">Nome:</label>
+                        <input type="text" class="form-control" id="nome" name="nome" required style="width: 60%">
+                    </div>
+                    <div class="form-group col-12">
+                        <label for="email">E-mail:</label>
+                        <input type="email" class="form-control" id="email" name="email" required style="width: 60%;">
+                    </div>
+                    <div class="form-group col-8" >
+                        <label for="endereco">CEP:</label>
+                        <input type="adress" class="form-control" id="endereco" name="endereco" required
+                            style="width: 40%;">
                 </div>
-                <div class="form-group">
-                    <label for="email">E-mail:</label>
-                    <input type="email" class="form-control" id="email" name="email" required style="width: 70%;">
+                </div>
+                <div class="row">
+                    <div class="form-group col-12">
+                        <label for="rua">Rua:</label>
+                        <input type="adress" class="form-control" id="rua" name="rua" required
+                            style="width: 60%;">
+                    </div>
+                    <div class="form-group col-4">
+                        <label for="numero">N°:</label>
+                        <input type="number" class="form-control" id="enumero" name="numero" required
+                            style="width: 60%;">
+                    </div>
+                    <div class="form-group col-4">
+                        <label for="Complemento">Complemento:</label>
+                        <input type="text" class="form-control" id="Complemento" name="Complemento" required
+                            style="width: 60%;">
+                    </div>
                 </div>
                 <div class="form-group">
                     <label for="telefone">Telefone:</label>
-                    <input type="tel" class="form-control" id="telefone" name="telefone" required style="width: 70%;">
+                    <input type="tel" class="form-control" id="telefone" name="telefone" required style="width: 60%;">
                 </div>
-                <div class="form-group">
-                    <label for="endereco">Endereço:</label>
-                    <input type="text" class="form-control" id="endereco" name="endereco" required
-                        style="width: 70%;">
+                <div>
+                    <label for="iest">Estado</label>
+                    <select name="Estado" id="iest">
+                        <option value="">---UF---</option>
+                        <optgroup label="Região Sudeste">
+                            <option value="MG">Minas Gerais</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="ES">Espírito Santo</option>
+                        </optgroup>
+
+                        <optgroup label="Região Nordeste">
+                            <option value="RN">Rio Grande do norte</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="PI">Piauí</option>
+                            <option value="CE">Ceará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="BA">Bahia</option>
+                        </optgroup>
+
+                        <optgroup label="Região Norte">
+                            <option value="AM"> Amazonas </option>
+                            <option value="RR"> Roraimaa</option>
+                            <option value="AP"> Amapá </option>
+                            <option value="PA"> Pará </option>
+                            <option value="TO"> Tocantins </option>
+                            <option value="RO"> Rondônia </option>
+                            <option value="AC"> Acre</option>
+                        </optgroup>
+                        <optgroup label="Região Sul">
+                            <option value="PR">Paraná </option>
+                            <option value="RS">Rio Grande do Sul </option>
+                            <option value="SC">Santa Catarina </option>
+                        </optgroup>
+                    </select>
                 </div>
-                <button type="submit" class="btn btn-primary">Enviar Cadastro</button>
+                
+                <div>
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" class="form-control" id="cidade" name="cidade" required
+                    style="width: 60%; margin-bottom: 20px;">
+                </div>
+
+                <button type="submit" class="btn btn-primary m-10">Enviar Cadastro</button>
             </form>
         </div>
 
@@ -71,6 +130,7 @@
 
     </main>
     <footer>
+
         <p>&copy; 2023 - Todos os direitos reservados.</p>
 
     </footer>

@@ -8,3 +8,11 @@
     padding: 10px 10px 10px 10px;
 }
 
+main{
+    display: block;
+}
+
+button{
+    margin: 10px;
+}
+
