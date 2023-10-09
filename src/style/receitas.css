@@ -4,12 +4,7 @@
     font-weight: normal;
 }
 
-@media screen  and (max-width: 600px){
-   header{ display: inline-flex; 
-        
-    }
-    
-}
+
 
 .receitas {
     justify-content: center;
@@ -52,7 +47,7 @@
 }
 
 .vertical-list li {
-    display: block;
+    display:flex;
     margin-bottom: 10px;
     /* Adicione margem inferior para separar os itens verticalmente */
     font-size: 14px;

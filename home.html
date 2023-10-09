@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Minhas Receitas - Página Inicial</title>
     <link rel="stylesheet" href="./src/style/formato.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -17,23 +17,28 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container m-10">
 
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> <!-- Ícone do "burger" -->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="home.html" rel="prev">Página Inicial</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="receitas.html">Receitas</a>
+                        <a class="nav-link" href="home.html" target="_self">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="cadastro.html" rel="next">Cadastro</a>
+                        <a class="nav-link" href="receitas.html" rel="next" target="_self">Receitas</a>
                     </li>
-                </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cadastro.html" rel="next" target="_self">Cadastro</a>
+                    </li>
 
-            </div>
+                </ul>
         </nav>
+
     </header>
 
     <main>
@@ -46,7 +51,7 @@
 
         </div>
     </main>
-  
+
     <footer>
         <p>&copy; 2023 - Todos os direitos reservados.</p>
     </footer>
