@@ -10,9 +10,11 @@
 
 main{
     display: block;
+    overflow-y: auto;
 }
 
-button{
-    margin: 10px;
+main button{
+    margin-bottom: 10px;
+  
 }
 

@@ -4,6 +4,7 @@
     border: 0;
     font-family: 'Bogota', Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    
 }
 
 
@@ -14,12 +15,15 @@
     src: url(fonts/Bogota.ttf) formato(truetype);
     font-weight: normal;
 }
+ 
+.pt-170 {
+    padding-top: 170px;
+  } 
 
-.pt-150 {
-    padding-top: 150px;
-  }
-
-
+header{
+    height: 60px;
+    margin-bottom: -4px;
+}
 
 
 
@@ -60,9 +64,7 @@ body {
 
 main {
     display: flex;
-    width:  60px calc(100vh - 100px) 25px;
-    min-height: 88vh;
-    max-height: none;
+    height: calc(100vh - 100px);
     background-color: #E9967A;
     overflow-y:auto;
 
@@ -94,8 +96,8 @@ div p {
 footer {
     background-color: #343a40;
     text-align: center;
-    height: 30px;
-    width:  60px calc(100vh - 100px) 25px;
+    height: 25px;
+    margin-bottom: -3px;
 }
 
 footer p {
