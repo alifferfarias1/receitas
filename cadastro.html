@@ -22,7 +22,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
             <div class="container m-10">
 
                 <ul class="navbar-nav">
@@ -42,45 +42,51 @@
     </header>
     <main class="container-fluid">
         <div class="container">
-
+            <h1>Efetue o seu cadastro</h1>
             <form action="https://formsubmit.co/alifferalvesfarias3@gmail.com" method="POST">
 
                 <div class="row">
-                    <div class="form-group col-12">
+                    <div class="form-group col-8">
                         <label for="nome">Nome:</label>
-                        <input type="text" class="form-control" id="nome" name="nome" required style="width: 60%">
+                        <input type="name" class="form-control" id="nome" name="nome" required style=>
                     </div>
-                    <div class="form-group col-12">
+                    <div class="form-group col-8">
                         <label for="email">E-mail:</label>
-                        <input type="email" class="form-control" id="email" name="email" required style="width: 60%;">
+                        <input type="email" class="form-control" id="email" name="email" required >
                     </div>
-                    <div class="form-group col-8" >
+                    <div class="form-group col-5" >
                         <label for="endereco">CEP:</label>
                         <input type="adress" class="form-control" id="endereco" name="endereco" required
-                            style="width: 40%;">
+                           >
                 </div>
                 </div>
                 <div class="row">
-                    <div class="form-group col-12">
+                    <div class="form-group col-8">
                         <label for="rua">Rua:</label>
                         <input type="adress" class="form-control" id="rua" name="rua" required
-                            style="width: 60%;">
+                           >
                     </div>
-                    <div class="form-group col-4">
+                    <div class="form-group col-5">
                         <label for="numero">N°:</label>
                         <input type="number" class="form-control" id="enumero" name="numero" required
-                            style="width: 60%;">
+                            >
                     </div>
-                    <div class="form-group col-4">
+                    <div class="form-group col-3">
                         <label for="Complemento">Complemento:</label>
                         <input type="text" class="form-control" id="Complemento" name="Complemento" required
-                            style="width: 60%;">
+                            >
                     </div>
                 </div>
-                <div class="form-group">
+                <div class="form-group col-8">
                     <label for="telefone">Telefone:</label>
-                    <input type="tel" class="form-control" id="telefone" name="telefone" required style="width: 60%;">
+                    <input type="tel" class="form-control" id="telefone" name="telefone" required >
                 </div>
+                <div class="col-8">
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" class="form-control" id="cidade" name="cidade" required
+                    style="margin-bottom: 20px;">
+                </div>
+                
                 <div>
                     <label for="iest">Estado</label>
                     <select name="Estado" id="iest">
@@ -121,13 +127,7 @@
                     </select>
                 </div>
                 
-                <div>
-                    <label for="cidade">Cidade:</label>
-                    <input type="text" class="form-control" id="cidade" name="cidade" required
-                    style="width: 60%; margin-bottom: 20px;">
-                </div>
-
-                <button type="submit" class="btn btn-primary">Enviar Cadastro</button>
+                <button type="submit" class="btn btn-primary ">Enviar Cadastro</button>
             </form>
         </div>
 

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: 'Bogota', Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
     
 }
@@ -10,11 +10,6 @@
 
 
 
-@font-face {
-    font-family: 'Bogota';
-    src: url(fonts/Bogota.ttf) formato(truetype);
-    font-weight: normal;
-}
  
 .pt-170 {
     padding-top: 170px;
@@ -38,12 +33,6 @@
 
 
 
-.containerr {
-    position: relative;
-    text-align: center;
-
-
-}
 
 .texto {
     justify-content: center;
@@ -69,7 +58,6 @@ main {
     min-height: 88.9vh;
     max-height: none;
     background-color: #E9967A;
-    overflow-y:auto;
 
 
 
@@ -99,7 +87,7 @@ div p {
 footer {
     background-color: #343a40;
     text-align: center;
-    /* height: 25px; */
+    height: 25px;
    
    
 }

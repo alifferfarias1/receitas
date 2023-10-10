@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="./src/style/formato.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
     <link rel="shortcut icon" href="src/favicon/icons8-restaurante-16.png" type="image/x-icon">
 
 </head>
@@ -18,27 +17,23 @@
 <body>
     <header>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <div class="container m-10">
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span> <!-- Ícone do "burger" -->
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item ">
-                        <a class="nav-link active" href="home.html" rel="prev">Home</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="receitas.html">Receitas</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html" rel="prev" target="_self">Página Inicial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="cadastro.html" rel="next">Cadastro</a>
+                        <a class="nav-link" href="receitas.html" rel="_self">Receitas</a>
                     </li>
-
+                    <li class="nav-item ">
+                        <a class="nav-link" href="cadastro.html">Cadastro</a>
+                    </li>
                 </ul>
-        </nav>
 
+            </div>
+        </nav>
 
     </header>
 
