@@ -8,21 +8,41 @@
 }
 
 
+body {
+    font-family: 'Bogota', Arial, Helvetica, sans-serif;
+    background-color: #E9967A;
+    height: calc(100vh - 100px);
 
 
- 
-.pt-170 {
-    padding-top: 170px;
-  } 
+}
 
- header{
+
+
+
+header{
     height: 60px;
     margin-bottom: -4px;
- }
+}
 
 
 
 
+
+
+/* Definir a formatação das áreas semânticas */
+
+
+
+
+main {
+    display: flex;
+    min-height: 88.9vh;
+    max-height: none;
+    background-color: #E9967A;
+    
+    
+    
+}
 .imagem-div {
     position: absolute;
     height: 50px;
@@ -39,32 +59,12 @@
     align-items: center;
 }
 
+.pt-170 {
+   padding-top: 170px;
+ } 
+ 
 
-/* Definir a formatação das áreas semânticas */
-
-
-
-body {
-    font-family: 'Bogota', Arial, Helvetica, sans-serif;
-    background-color: #E9967A;
-    height: calc(100vh - 100px);
-
-
-}
-
-
-main {
-    display: flex;
-    min-height: 88.9vh;
-    max-height: none;
-    background-color: #E9967A;
-
-
-
-}
-
-
-
+ 
 div h1 {
     margin-bottom: 0.5rem;
     font-weight: 600;

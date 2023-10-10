@@ -10,6 +10,8 @@
 
 main{
     overflow-y: auto;
+    display: flex;
+    align-items: flex-start;
 }
 
 main button{
