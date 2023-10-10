@@ -14,8 +14,12 @@ main{
     align-items: flex-start;
 }
 
+main input{
+    margin-bottom: 3px ;
+}
+
 main button{
-    margin-bottom: 10px;
+    margin-bottom: 2px;
 }
 
 
