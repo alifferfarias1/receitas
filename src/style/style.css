@@ -20,6 +20,7 @@ main input{
 
 main button{
     margin-bottom: 2px;
+    float: right;
 }
 
 
