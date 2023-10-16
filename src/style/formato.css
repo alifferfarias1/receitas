@@ -7,10 +7,9 @@
 }
 
 
-body {
+body, html {
     font-family: 'Bogota', Arial, Helvetica, sans-serif;
     background-color: #E9967A;
-    height: calc(100vh - 100px);
 
 
 }
@@ -35,9 +34,10 @@ header{
 
 main {
     display: flex;
-    min-height: 88.6vh;
+    min-height: calc(100vh - 100px);
     max-height: none;
     background-color: #E9967A;
+
     
     
     
@@ -72,26 +72,31 @@ div h1 {
 }
 
 
-div q {
-    display: block;
-    font-weight: bold;
-}
 
 div p {
     font-weight: bold;
     display: block;
 }
+div q {
+    display: block;
+    font-weight: bold;
+    padding-bottom: 233px;
+}
 
 
 footer {
+    display: flex;
     background-color: #343a40;
     text-align: center;
     height: 25px;
+ 
    
    
 }
 
 footer p {
+    display: inline;
     color: white;
+    
 
 }
